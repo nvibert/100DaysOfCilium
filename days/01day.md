@@ -36,6 +36,10 @@ That's why I end up calling it a "cloud networking, security and observability p
 
 And, most importantly, it can do a lot of things *well*. It is powered by a revolutionary Linux technology called eBPF. 
 
-eBPF is what makes Cilium so fast - and why features keep being added to Cilium at pace - but in many ways, it's slightly irrelevant. You can use and become a Cilium expert without having to learn anything about eBPF. But you might find it interesting and it explains 
+eBPF is what makes Cilium so fast - in feature velocity and in performance - but in many ways, it's slightly irrelevant. You can use and become a Cilium expert without having to learn anything about eBPF. But you might find it interesting and it explains how it came to be and how it performs so well, especially compared to some legacy technologies.
+
+And knowing eBPF can be occasionnally handy when you need to troubleshoot Cilium. I will give it a lot of praise over the 100 Days of Cilium but it's not perfect. It can be a very complicated platform.
+
+Hopefully, this series - and all the other content we are creating over on [Isovalent.com](https://www.isovalent.com) will reduce the barrier to adoption.
 
 
