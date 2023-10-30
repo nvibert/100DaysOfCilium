@@ -25,16 +25,16 @@ Pretty much all the hands-on you will be doing will be on Kubernetes clusters. T
 
 I don't even expect you to run Kubernetes in production but I will expect you to have played with it - in home labs, on training courses, at work - but I won't put an artifical barrier (I started learning Cilium with a modest experience of Kubernetes and I did OK. I'm sure you will too). 
 
-There are many courses that explain Kubernetes better than I ever could.
+There are many courses that explain Kubernetes better than I ever could and my time is better spent on Cilium itself than around the underlying platform it's deployed on.
 
 So I am expecting you to know about the following concepts:
 
-- Containerised applications
+- Containerised applications and the overall cloud native landscape
 - General DevOps culture and practices knowledges
 - Why Kubernetes?
 - Kubernetes Architecture and Concepts, including Nodes, Pods, Services, Deployments
 - Interacting with the Kubernetes API with `kubectl`
-- Linux
+- Linux command line
 - YAML
 - Cloud Architecture concepts
 
@@ -46,10 +46,16 @@ And given that Cilium is a Cloud Networking Platform, well, you should know the 
 - Firewalling and Networkg Security
 - Load Balancing
 
-Again - you don't have to be a networking or BGP expert (I will explain some of the basics where appropriate) but I will just assume a certain minimum level of knowledge (otherwise, well, this will just take me forever to do and will be boring for the people this should reapply to).
+Again - you don't have to be a networking or BGP expert (I will explain some of the basics where appropriate) but I will just have to assume a certain minimum level of knowledge.
 
 ### Who is this for?
 
+Well, I wrote an entire blog post about it [here](https://isovalent.com/blog/post/cilium-learning-path/) so I won't repeat it all here... But if I had to recap quickly, Cilium is relevant for:
+
+- Network Engineers, especially those that are now working on the cloud native space, with aspirations to do so.
+- SecOps Engineers - Security professionals in the Cloud Native & DevOps space. 
+- Platform Engineer / DevOps Engineer / SRE - anyone who may have to design, manage or operate Kubernetes clusters or Service Meshes.
+- Cloud Architect / Cloud Engineer - anyone who might have to operate Kubernetes clusters managed by cloud providers (such as AWS EKS, AKS or GKE) where Cilium is deployed by default or frequently installed to replace or supplement the default CNI. This is also relevant for folks operating and running private clouds based on EKS-Anywhere (Cilium is the default CNI), Red Hat OpenShift, Tanzu, Rancher, etc...
 
 
 ### What will I learn ?
