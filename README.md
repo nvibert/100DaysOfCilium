@@ -1,6 +1,8 @@
 # 100DaysOfCilium
 A repo where you can learn and try 100 different aspects and features of Cilium.
 
+100 Days of Cilium will start in 2024, shortly after KubeCon Paris. Hope you join me in learning Cilium every day for 20 weeks (you get the weekends off).
+
 ## Purpose
 
 This repo will help you learn 100 features and concepts of Cilium, the cloud networking platform. 
